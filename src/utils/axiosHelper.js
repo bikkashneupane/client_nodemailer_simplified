@@ -20,3 +20,7 @@ export const registerUserAxios = (obj) =>
 // verify user account
 export const verifyUserAxios = (obj) =>
   apiProcessor({ url: userEP + "/verify-account", method: "POST", data: obj });
+
+//request otp
+export const requestOTP = (obj) =>
+  apiProcessor({ url: userEP + "/otp-request", method: "POST", data: obj });

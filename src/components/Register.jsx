@@ -2,9 +2,9 @@ import { toast } from "react-toastify";
 import { registerUserAxios } from "../utils/axiosHelper";
 
 const dummyUser = {
-  fullName: "Jon Doe",
-  email: "jon@gmail.com",
-  password: "Jon123",
+  fullName: "Bikash Neupane",
+  email: "edubikkash@gmail.com",
+  password: "Bikash123",
 };
 
 export const Register = () => {
